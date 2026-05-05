@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```bash
 python scripts/setup_sample_data.py
 ```
-This copies 500-row sample CSVs to the correct paths so the dashboard boots immediately with real-looking data. For the full 3.7GB dataset see [Full Dataset](#full-dataset) below.
+This copies 500-row sample CSVs to the correct paths so the dashboard boots immediately with real-looking data. For the full 3.7GB dataset see [Full Dataset](#https://drive.google.com/drive/folders/1jFjS_lV4rXaEa_0GM0_-35NLjfJOzDOr?usp=sharing) below.
 
 ### Step 3 — Install Ollama and pull LLaMA 3.2
 ```bash
