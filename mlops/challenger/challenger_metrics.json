@@ -1,0 +1,28 @@
+{
+  "forecast_method": "challenger",
+  "mape": 39.46538949421705,
+  "wape": 22.72667816059887,
+  "mae": 2.633158574402501,
+  "rmse": 3.6052646521163587,
+  "bias": 0.0006500699381173144,
+  "p90_coverage": 90.56335560294677,
+  "category_wape": {
+    "Baby & Infant": 22.45688618711097,
+    "Bakery": 22.82572759104487,
+    "Beverages": 22.810711689316065,
+    "Canned & Pantry": 22.749063910854925,
+    "Dairy & Eggs": 22.822685618135964,
+    "Frozen Foods": 22.716710807102007,
+    "Health & Wellness": 22.85428189198395,
+    "Household": 22.93572051805547,
+    "Meat & Seafood": 22.513221663530498,
+    "Personal Care": 22.795011541322346,
+    "Pet Supplies": 22.487489115951387,
+    "Produce": 22.64969862602798,
+    "Snacks": 22.660527011117388
+  },
+  "rows_evaluated": 3235949,
+  "retrain_trigger": "emergency_retrain",
+  "retrain_date": "2026-04-23T19:19:21.113268",
+  "train_rows": 2588759
+}

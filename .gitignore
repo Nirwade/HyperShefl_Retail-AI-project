@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Large data files — download from Google Drive link in README
+data/raw/
+data/processed/
+models/*.pkl
+models/*.joblib
+models/*.bin
+
+# Notebooks output (generated, not source)
+notebooks/*.csv
+notebooks/*.html
+notebooks/nexus_alert_outputs/
+notebooks/nexus_forecast_accuracy_outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs and outputs
+logs/
+outputs/
+*.log
+
+# Large model binaries
+*.pkl
+*.joblib
+assets/*.mov
+assets/*.mov
