@@ -256,9 +256,10 @@ footer{background:var(--bg2);padding:60px 48px;border-top:1px solid var(--border
     <div class="kpi"><div class="kpi-val green">188,143</div><div class="kpi-label">Stockout events prevented</div></div>
     <div class="kpi"><div class="kpi-val purple">89.75%</div><div class="kpi-label">P90 demand coverage</div></div>
   </div>
-  <div class="demo-zone" style="padding: 0; border: none; background: transparent;">
+  <div class="demo-zone" style="padding:0;border:none;background:transparent;margin-top:40px;margin-bottom:60px;">
     <iframe src="https://drive.google.com/file/d/1Ap-6Y9bKI37CkYogyIrA94ij1e5CnDgq/preview" width="100%" style="aspect-ratio:16/9;border:1px solid var(--border);border-radius:8px;" allow="autoplay" allowfullscreen></iframe>
   </div>
+</div>
 
 <div class="ticker-wrap">
   <div class="ticker">
@@ -724,13 +725,16 @@ footer{background:var(--bg2);padding:60px 48px;border-top:1px solid var(--border
       <h3 style="font-size:16px;font-weight:700;margin-bottom:16px">1 — Clone and set up</h3>
       <div class="code-block">
         <div class="cm"># Clone the repository</div>
-        <div class="cmd">git clone https://github.com/Nirwade/retail-ai-project</div>
+        <div class="cmd">git clone https://github.com/Nirwade/HyperShefl_Retail-AI-project</div>
         <div class="cmd">cd retail-ai-project</div>
         <div style="height:10px"></div>
         <div class="cm"># Create conda environment</div>
         <div class="cmd">conda create -n retail-ai python=3.10</div>
         <div class="cmd">conda activate retail-ai</div>
         <div class="cmd">pip install -r requirements.txt</div>
+        <div style="height:10px"></div>
+        <div class="cm"># Set up sample data so dashboard boots immediately</div>
+        <div class="hl">python scripts/setup_sample_data.py</div>
         <div style="height:10px"></div>
         <div class="cm"># Install Ollama and pull the model</div>
         <div class="cmd">brew install ollama</div>
